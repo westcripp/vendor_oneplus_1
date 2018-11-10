@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/msm8998-common/proprietary/bin/ifaadaemon:system/bin/ifaadaemon \
+    vendor/oneplus/msm8998-common/proprietary/bin/move_widevine_data.sh:system/bin/move_widevine_data.sh \
     vendor/oneplus/msm8998-common/proprietary/vendor/firmware/mbn_ota/mbn_ota.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mbn_ota.txt \
     vendor/oneplus/msm8998-common/proprietary/vendor/firmware/tp/fw_synaptics_16859.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_16859.img \
     vendor/oneplus/msm8998-common/proprietary/lib/libteeclientjni.so:system/lib/libteeclientjni.so \
